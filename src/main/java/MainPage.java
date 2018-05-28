@@ -21,16 +21,6 @@ public class MainPage {
     private WebElement newUserRegistrationLink;
 
 
-//    public MainPage clickVoitiVLichnijKabinet() {
-//        voitiVLichnijKabimetBtn.click();
-//        return this;
-//    }
-//
-//    public MainPage clickSignUpLink(){
-//        signUpLink.click();
-//        return this;
-//    }
-
     public SignUpPage clickNewUserRegistration() {
         newUserRegistrationLink.click();
         return PageFactory.initElements(driver, SignUpPage.class);
